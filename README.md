@@ -1,6 +1,23 @@
-### Hi there 👋
+```swift
+#!/usr/bin/env swift
+import UIKit
 
-学习使我快乐🙃
+struct Welcome: CustomStringConvertible {
+    let blog = "https://madordie.github.io"
+
+    var description: String {
+        return """
+            - 🌱 [学习使我快乐](\(blog))
+            """
+    }
+}
+
+print(Welcome())
+```
+
+---
+- 🌱 [学习使我快乐](https://madordie.github.io)
+
 
 <!--
 **madordie/madordie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
